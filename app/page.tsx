@@ -1,3 +1,4 @@
+"use client";
 import { AppSidebar } from "@/components/portfolio/AppSidebar";
 import {
   Hero,
@@ -6,10 +7,7 @@ import {
   Education,
   Contact,
 } from "@/components/portfolio/Sections";
-import {
-  SidebarProvider,
-  SidebarTrigger,
-} from "@/components/ui/sidebar";
+import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar";
 import { resume } from "@/data/resume";
 
 export default function HomePage() {
@@ -56,4 +54,3 @@ export default function HomePage() {
     </SidebarProvider>
   );
 }
-
